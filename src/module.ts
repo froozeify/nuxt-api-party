@@ -185,6 +185,7 @@ export default defineNuxtModule<ModuleOptions>().with({
   },
   defaults: {
     endpoints: {},
+    client: undefined,
     openAPITS: {},
     server: {
       basePath: '__api_party',
